@@ -6,4 +6,4 @@ app.get('/',function(req,res){
     res.json({"Hello":"World"});
 });
 
-app.listen(process.env.port||8080);
+app.listen(process.env.PORT||8080);
